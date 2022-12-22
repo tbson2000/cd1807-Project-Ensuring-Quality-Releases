@@ -1,15 +1,10 @@
-# Azure subscription vars
-subscription_id = ""
-client_id = ""
-client_secret = ""
-tenant_id = ""
-
 # Resource Group/Location
-location = ""
-resource_group_name = ""
-application_type = ""
+location         = "southeastasia"
+resource_group   = "AzureDevOps"
+application_type = "udacity3rdsontb4"
 
 # Network
-virtual_network_name = ""
-address_space = ["10.5.0.0/16"]
-address_prefix_test = "10.5.1.0/24"
+virtual_network_name  = "udacity-3rd-vnet"
+address_space         = ["10.20.0.0/16"]
+address_prefixes_test = ["10.20.1.0/24"]
+address_prefix_test   = "10.20.1.0/24"
