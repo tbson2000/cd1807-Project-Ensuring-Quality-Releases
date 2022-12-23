@@ -13,7 +13,7 @@ pool: myAgentPool
 variables:
   python.version: '3.7.6'
   # ToDo: Replace the service connection name as used in the DevOps project settings
-  azureServiceConnectionId: 'myServiceConnection'
+  azureServiceConnectionId: 'udacity3rd'
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
   # Environment name
@@ -44,8 +44,8 @@ stages:
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
         backendServiceArm: '$(azureServiceConnectionId)'
-        backendAzureRmResourceGroupName: 'Azuredevops'
-        backendAzureRmStorageAccountName: 'tfstate281845088'
+        backendAzureRmResourceGroupName: 'ShellScriptSA'
+        backendAzureRmStorageAccountName: 'storagesontb4'
         backendAzureRmContainerName: 'tfstate'
         backendAzureRmKey: 'test.terraform.tfstate'
 
