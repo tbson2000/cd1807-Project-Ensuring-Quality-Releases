@@ -249,10 +249,10 @@ stages:
                 sudo apt install python3.7 -y
                 sudo apt-get install python3-pip -y
                 sudo apt-get install unzip -y
-                # sudo apt-get install -y chromium-browser
+                sudo apt-get install -y chromium-browser
 
                 # export PATH=$PATH:/path/to/chromedriver
-                sudo apt-get install -y google-chrome-stable
+                # sudo apt-get install -y google-chrome-stable
                 # rm -f google-chrome-stable_current_amd64*
                 # wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
                 # sudo apt install ./google-chrome-stable_current_amd64.deb -y
