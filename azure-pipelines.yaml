@@ -8,12 +8,12 @@ trigger:
 
 # ToDo: Replace the agent pool name, if you are using Udacity Cloud lab. 
 # Otherwise, comment out the line below. 
-pool: myAgentPool
+pool: Azure Pipelines
 
 variables:
   python.version: '3.7.6'
   # ToDo: Replace the service connection name as used in the DevOps project settings
-  azureServiceConnectionId: 'myServiceConnection'
+  azureServiceConnectionId: 'udacity3rd'
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
   # Environment name
@@ -44,9 +44,9 @@ stages:
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
         backendServiceArm: '$(azureServiceConnectionId)'
-        backendAzureRmResourceGroupName: 'Azuredevops'
-        backendAzureRmStorageAccountName: 'tfstate281845088'
-        backendAzureRmContainerName: 'tfstate'
+        backendAzureRmResourceGroupName: 'ShellScriptSA'
+        backendAzureRmStorageAccountName: 'storagesontb4'
+        backendAzureRmContainerName: 'udacity3rd'
         backendAzureRmKey: 'test.terraform.tfstate'
 
     # ToDo: Run Terraform Validate
@@ -163,7 +163,7 @@ stages:
             inputs:
               azureSubscription: '$(azureServiceConnectionId)'
               appType: 'webApp'
-              appName: 'anhhv3udacity-AppService'
+              appName: 'udacity3rdsontb4-AppService'
               package: '$(Pipeline.Workspace)/fake-rest-api/$(Build.BuildId)-FakeRestAPI.zip'
               deploymentMethod: 'zipDeploy'
 
@@ -196,11 +196,11 @@ stages:
               workingDirectory: $(Pipeline.Workspace)/jmeter-test/
   - job: NewmanTest
     steps:
-    - task: CmdLine@2
-      displayName: Install Newman
-      inputs:
-        script:           # ToDo: Write your commands to install newman
-        workingDirectory: $(System.DefaultWorkingDirectory)
+    # - task: CmdLine@2
+    #   displayName: Install Newman
+    #   inputs:
+    #     script:           # ToDo: Write your commands to install newman
+    #     workingDirectory: $(System.DefaultWorkingDirectory)
     # Postman Data Validation Test Suite
     - task: CmdLine@2
       displayName: Run Data Validation Tests
@@ -249,10 +249,10 @@ stages:
                 sudo apt install python3.7 -y
                 sudo apt-get install python3-pip -y
                 sudo apt-get install unzip -y
-                # sudo apt-get install -y chromium-browser
+                sudo apt-get install -y chromium-browser
 
                 # export PATH=$PATH:/path/to/chromedriver
-                sudo apt-get install -y google-chrome-stable
+                # sudo apt-get install -y google-chrome-stable
                 # rm -f google-chrome-stable_current_amd64*
                 # wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
                 # sudo apt install ./google-chrome-stable_current_amd64.deb -y
