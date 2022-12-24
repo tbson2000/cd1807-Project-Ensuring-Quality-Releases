@@ -46,7 +46,7 @@ stages:
         backendServiceArm: '$(azureServiceConnectionId)'
         backendAzureRmResourceGroupName: 'ShellScriptSA'
         backendAzureRmStorageAccountName: 'storagesontb4'
-        backendAzureRmContainerName: 'tfstate'
+        backendAzureRmContainerName: 'udacity3rd'
         backendAzureRmKey: 'test.terraform.tfstate'
 
     # ToDo: Run Terraform Validate
