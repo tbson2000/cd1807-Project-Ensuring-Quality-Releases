@@ -163,7 +163,7 @@ stages:
             inputs:
               azureSubscription: '$(azureServiceConnectionId)'
               appType: 'webApp'
-              appName: 'anhhv3udacity-AppService'
+              appName: 'udacity3rdsontb4-AppService'
               package: '$(Pipeline.Workspace)/fake-rest-api/$(Build.BuildId)-FakeRestAPI.zip'
               deploymentMethod: 'zipDeploy'
 
