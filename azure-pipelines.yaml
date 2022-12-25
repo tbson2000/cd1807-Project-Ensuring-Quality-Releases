@@ -13,7 +13,7 @@ pool: Azure Pipelines
 variables:
   python.version: '3.7.6'
   # ToDo: Replace the service connection name as used in the DevOps project settings
-  azureServiceConnectionId: 'udacity3rd'
+  azureServiceConnectionId: 'udacity3rd2'
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
   # Environment name
@@ -43,7 +43,7 @@ stages:
         provider: 'azurerm'
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        backendServiceArm: 'udacity3rd'
+        backendServiceArm: '$(azureServiceConnectionId)'
         backendAzureRmResourceGroupName: 'ShellScriptSA'
         backendAzureRmStorageAccountName: 'storagesontb4'
         backendAzureRmContainerName: 'udacity3rd'
@@ -79,7 +79,7 @@ stages:
         provider: 'azurerm'
         command: 'apply'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        environmentServiceNameAzureRM: 'udacity3rd'
+        environmentServiceNameAzureRM: '$(azureServiceConnectionId)'
 
     # ToDo: Change the workingDirectory path, as applicable to you
     # Destroy the resources in Azure by running a separate pipeline. 
