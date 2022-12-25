@@ -43,7 +43,7 @@ stages:
         provider: 'azurerm'
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        backendServiceArm: '$(azureServiceConnectionId)'
+        backendServiceArm: 'udacity3rd'
         backendAzureRmResourceGroupName: 'ShellScriptSA'
         backendAzureRmStorageAccountName: 'storagesontb4'
         backendAzureRmContainerName: 'udacity3rd'
@@ -79,7 +79,7 @@ stages:
         provider: 'azurerm'
         command: 'apply'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        environmentServiceNameAzureRM: '$(azureServiceConnectionId)'
+        environmentServiceNameAzureRM: 'udacity3rd'
 
     # ToDo: Change the workingDirectory path, as applicable to you
     # Destroy the resources in Azure by running a separate pipeline. 
@@ -207,7 +207,7 @@ stages:
       retryCountOnTaskFailure: 10
       continueOnError: true
       inputs:
-        script: newman run "Starter APIs.data_validation.json" -x -e "StarterAPITestEnv.postman_environment.json" --delay-request 3000 -r cli,junit --reporter-junit-export $(System.DefaultWorkingDirectory)/test_reports/data_validation.xml
+        script: newman run "StarterAPIs.data_validation.json" -x -e "StarterAPITestEnv.postman_environment.json" --delay-request 3000 -r cli,junit --reporter-junit-export $(System.DefaultWorkingDirectory)/test_reports/data_validation.xml
         workingDirectory: '$(System.DefaultWorkingDirectory)/automatedtesting/postman'
     # Postman Regression Test Suite
     - task: CmdLine@2
@@ -215,7 +215,7 @@ stages:
       retryCountOnTaskFailure: 10
       continueOnError: true
       inputs:
-        script: newman run "Starter APIs.regression.json" -x -e "StarterAPITestEnv.postman_environment.json" --delay-request 3000 -r cli,junit --reporter-junit-export $(System.DefaultWorkingDirectory)/test_reports/regression.xml
+        script: newman run "StarterAPIs.regression.json" -x -e "StarterAPITestEnv.postman_environment.json" --delay-request 3000 -r cli,junit --reporter-junit-export $(System.DefaultWorkingDirectory)/test_reports/regression.xml
         workingDirectory: '$(System.DefaultWorkingDirectory)/automatedtesting/postman'
     # Postman - Publish Results
     - task: PublishTestResults@2
