@@ -43,7 +43,7 @@ stages:
         provider: 'azurerm'
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        backendServiceArm: '$(azureServiceConnectionId)'
+        backendServiceArm: 'udacity3rd'
         backendAzureRmResourceGroupName: 'ShellScriptSA'
         backendAzureRmStorageAccountName: 'storagesontb4'
         backendAzureRmContainerName: 'udacity3rd'
