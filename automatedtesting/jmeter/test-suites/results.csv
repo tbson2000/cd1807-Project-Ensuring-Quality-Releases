@@ -1,0 +1,136 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1671875433325,665,GET BOOK ID by AUTHOR,200,OK,Fake Rest API Stress Test 1-2,text,true,,561,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/authors/books/4,665,0,586
+1671875433523,467,GET BOOK ID by AUTHOR,200,OK,Fake Rest API Stress Test 1-3,text,true,,561,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/authors/books/6,466,0,375
+1671875433235,798,GET BOOK ID by AUTHOR,200,OK,Fake Rest API Stress Test 1-1,text,true,,549,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/authors/books/2,798,0,724
+1671875433719,339,GET BOOK ID by AUTHOR,200,OK,Fake Rest API Stress Test 1-4,text,true,,411,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/authors/books/8,339,0,262
+1671875433994,119,GET ALL AUTHORS,200,OK,Fake Rest API Stress Test 1-2,text,true,,47615,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors,66,0,0
+1671875433993,128,GET ALL AUTHORS,200,OK,Fake Rest API Stress Test 1-3,text,true,,47615,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors,73,0,0
+1671875434033,147,GET ALL AUTHORS,200,OK,Fake Rest API Stress Test 1-1,text,true,,63507,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors,65,0,0
+1671875434122,67,GET AUTHOR ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,330,211,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/3,67,0,0
+1671875434113,79,GET AUTHOR ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,330,211,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/2,78,0,0
+1671875434059,143,GET ALL AUTHORS,200,OK,Fake Rest API Stress Test 1-4,text,true,,63507,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors,65,0,0
+1671875433918,316,GET BOOK ID by AUTHOR,200,OK,Fake Rest API Stress Test 1-5,text,true,,489,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/authors/books/10,316,0,240
+1671875434181,65,GET AUTHOR ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,330,211,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/1,65,0,0
+1671875434192,69,POST AUTHOR,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/,69,0,0
+1671875434190,72,POST AUTHOR,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/,72,0,0
+1671875434203,77,GET AUTHOR ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,330,211,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/4,77,0,0
+1671875434246,61,POST AUTHOR,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/,61,0,0
+1671875434263,61,PUT AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/3,61,0,0
+1671875434262,64,PUT AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/2,64,0,0
+1671875434280,62,POST AUTHOR,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/,62,0,0
+1671875434308,61,PUT AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/1,61,0,0
+1671875434324,61,DELETE AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-3,,true,,211,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/3,61,0,0
+1671875434327,62,DELETE AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-2,,true,,211,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/2,62,0,0
+1671875434235,158,GET ALL AUTHORS,200,OK,Fake Rest API Stress Test 1-5,text,true,,63507,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors,66,0,0
+1671875434343,64,PUT AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/4,64,0,0
+1671875434370,64,DELETE AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-1,,true,,211,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/1,64,0,0
+1671875434386,66,GET BOOK COVER by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,358,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/books/covers/6,66,0,0
+1671875434389,69,GET BOOK COVER by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,358,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/books/covers/4,69,0,0
+1671875434393,65,GET AUTHOR ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,330,211,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/5,65,0,0
+1671875434408,66,DELETE AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-4,,true,,211,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/4,66,0,0
+1671875434435,70,GET BOOK COVER by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,358,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/books/covers/2,70,0,0
+1671875434459,63,POST AUTHOR,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/,63,0,0
+1671875434453,70,GET COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-3,text,true,,20739,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,65,0,0
+1671875434459,72,GET COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-2,text,true,,20739,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,65,0,0
+1671875434475,67,GET BOOK COVER by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,358,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/books/covers/8,67,0,0
+1671875434506,66,GET COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-1,text,true,,20739,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,62,0,0
+1671875434523,64,PUT AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,256,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/5,64,0,0
+1671875434524,64,GET COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/6,64,0,0
+1671875434533,66,GET COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/4,66,0,0
+1671875434542,69,GET COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-4,text,true,,20739,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,65,0,0
+1671875434572,64,GET COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/2,64,0,0
+1671875434587,64,DELETE AUTHOR by ID,200,OK,Fake Rest API Stress Test 1-5,,true,,211,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Authors/5,64,0,0
+1671875434588,63,POST COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,270,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,63,0,0
+1671875434600,65,POST COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,270,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,65,0,0
+1671875434611,67,GET COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/8,67,0,0
+1671875434637,61,POST COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,270,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,61,0,0
+1671875434652,65,GET BOOK COVER by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,362,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/books/covers/10,65,0,0
+1671875434652,65,PUT COVERPHOTO by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,271,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/6,65,0,0
+1671875434666,65,PUT COVERPHOTO by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,271,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/4,65,0,0
+1671875434679,65,POST COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,270,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,65,0,0
+1671875434699,62,PUT COVERPHOTO by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,271,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/2,62,0,0
+1671875434718,60,DELETE COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-3,,true,,211,218,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/6,60,0,0
+1671875434732,65,DELETE COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-2,,true,,211,218,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/4,65,0,0
+1671875434745,62,PUT COVERPHOTO by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,271,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/8,62,0,0
+1671875434718,89,GET COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-5,text,true,,20739,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,65,0,0
+1671875434761,61,DELETE COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-1,,true,,211,218,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/2,61,0,0
+1671875434807,62,DELETE COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-4,,true,,211,218,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/8,62,0,0
+1671875434808,66,GET COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,360,216,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/10,66,0,0
+1671875434798,113,GET BOOKS,200,OK,Fake Rest API Stress Test 1-2,text,true,,97539,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,71,0,0
+1671875434779,137,GET BOOKS,200,OK,Fake Rest API Stress Test 1-3,text,true,,97539,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,82,0,0
+1671875434874,63,POST COVERPHOTOS,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,273,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos,62,0,0
+1671875434822,122,GET BOOKS,200,OK,Fake Rest API Stress Test 1-1,text,true,,97539,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,69,0,0
+1671875434911,63,GET BOOK by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/4,63,0,0
+1671875434917,62,GET BOOK by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/6,62,0,0
+1671875434870,135,GET BOOKS,200,OK,Fake Rest API Stress Test 1-4,text,true,,97539,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,79,0,0
+1671875434937,70,PUT COVERPHOTO by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,275,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/10,70,0,0
+1671875434945,65,GET BOOK by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/2,65,0,0
+1671875434975,73,POST BOOKS,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,362,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,73,0,0
+1671875434979,69,POST BOOKS,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,362,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,69,0,0
+1671875435006,63,GET BOOK by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,356,215,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/8,63,0,0
+1671875435007,62,DELETE COVERPHOTOS by ID,200,OK,Fake Rest API Stress Test 1-5,,true,,211,219,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/10,62,0,0
+1671875435011,62,POST BOOKS,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,362,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,62,0,0
+1671875435048,65,PUT BOOKS by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,363,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/6,65,0,0
+1671875435048,66,PUT BOOKS by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,363,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/4,66,0,0
+1671875435069,61,POST BOOKS,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,362,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,61,0,0
+1671875435073,63,PUT BOOKS by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,363,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/2,63,0,0
+1671875435070,104,GET BOOKS,200,OK,Fake Rest API Stress Test 1-5,text,true,,97539,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,72,0,0
+1671875435114,61,DELETE BOOK by ID,200,OK,Fake Rest API Stress Test 1-3,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/6,61,0,0
+1671875435114,63,DELETE BOOK by ID,200,OK,Fake Rest API Stress Test 1-2,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/4,63,0,0
+1671875435137,60,DELETE BOOK by ID,200,OK,Fake Rest API Stress Test 1-1,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/2,60,0,0
+1671875435131,67,PUT BOOKS by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,363,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/8,67,0,0
+1671875435178,66,GET USERS,200,OK,Fake Rest API Stress Test 1-2,text,true,,784,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,66,0,0
+1671875435174,70,GET BOOK by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,360,216,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/CoverPhotos/10,70,0,0
+1671875435175,69,GET USERS,200,OK,Fake Rest API Stress Test 1-3,text,true,,784,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,69,0,0
+1671875435199,80,DELETE BOOK by ID,200,OK,Fake Rest API Stress Test 1-4,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/8,80,0,0
+1671875435198,81,GET USERS,200,OK,Fake Rest API Stress Test 1-1,text,true,,784,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,81,0,0
+1671875435245,63,POST BOOKS,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,363,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books,63,0,0
+1671875435245,66,GET USERS by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,310,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/4,66,0,0
+1671875435245,69,GET USERS by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,310,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/6,69,0,0
+1671875435280,61,GET USERS,200,OK,Fake Rest API Stress Test 1-4,text,true,,784,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,61,0,0
+1671875435280,63,GET USERS by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,310,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/2,63,0,0
+1671875435308,67,PUT BOOKS by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,365,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/10,67,0,0
+1671875435314,61,POST USERS,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,251,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,61,0,0
+1671875435312,69,POST USERS,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,251,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,69,0,0
+1671875435343,61,POST USERS,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,251,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,61,0,0
+1671875435342,63,GET USERS by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,310,209,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/8,63,0,0
+1671875435375,67,DELETE BOOK by ID,200,OK,Fake Rest API Stress Test 1-5,,true,,211,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Books/10,67,0,0
+1671875435375,67,PUT USERS by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,252,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/6,67,0,0
+1671875435382,68,PUT USERS by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,252,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/4,68,0,0
+1671875435405,61,PUT USERS by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,252,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/2,61,0,0
+1671875435405,61,POST USERS,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,251,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,61,0,0
+1671875435443,61,DELETE USERS by ID,200,OK,Fake Rest API Stress Test 1-3,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/6,61,0,0
+1671875435443,65,GET USERS,200,OK,Fake Rest API Stress Test 1-5,text,true,,784,207,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,65,0,0
+1671875435451,67,DELETE USERS by ID,200,OK,Fake Rest API Stress Test 1-2,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/4,67,0,0
+1671875435467,79,PUT USERS by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,252,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/8,79,0,0
+1671875435467,79,DELETE USERS by ID,200,OK,Fake Rest API Stress Test 1-1,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/2,79,0,0
+1671875435509,70,GET USERS by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,313,210,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/10,70,0,0
+1671875435519,69,GET ACTIVITES,200,OK,Fake Rest API Stress Test 1-2,text,true,,3109,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,69,0,0
+1671875435546,61,DELETE USERS by ID,200,OK,Fake Rest API Stress Test 1-4,,true,,211,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/8,61,0,0
+1671875435546,62,GET ACTIVITES,200,OK,Fake Rest API Stress Test 1-1,text,true,,3109,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,62,0,0
+1671875435580,67,POST USERS,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,252,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users,67,0,0
+1671875435505,142,GET ACTIVITES,200,OK,Fake Rest API Stress Test 1-3,text,true,,3109,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,142,0,0
+1671875435588,69,GET ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,351,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/4,69,0,0
+1671875435608,65,GET ACTIVITES,200,OK,Fake Rest API Stress Test 1-4,text,true,,3109,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,65,0,0
+1671875435609,65,GET ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,351,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/2,65,0,0
+1671875435647,66,GET ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,350,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/6,66,0,0
+1671875435647,67,PUT USERS by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,254,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/10,67,0,0
+1671875435658,65,POST ACTIVITIES,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,289,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,65,0,0
+1671875435674,61,POST ACTIVITIES,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,289,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,61,0,0
+1671875435673,64,GET ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,351,214,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/8,64,0,0
+1671875435714,60,POST ACTIVITIES,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,289,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,60,0,0
+1671875435715,66,DELETE USERS by ID,200,OK,Fake Rest API Stress Test 1-5,,true,,211,213,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Users/10,66,0,0
+1671875435723,68,PUT ACTIVITIES BY ID,200,OK,Fake Rest API Stress Test 1-2,text,true,,262,290,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/4,68,0,0
+1671875435736,62,PUT ACTIVITIES BY ID,200,OK,Fake Rest API Stress Test 1-1,text,true,,262,290,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/2,62,0,0
+1671875435737,63,POST ACTIVITIES,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,289,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,63,0,0
+1671875435775,69,PUT ACTIVITIES BY ID,200,OK,Fake Rest API Stress Test 1-3,text,true,,262,290,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/6,69,0,0
+1671875435781,64,GET ACTIVITES,200,OK,Fake Rest API Stress Test 1-5,text,true,,3079,212,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,64,0,0
+1671875435791,63,DELETE ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-2,,true,,211,217,5,5,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/4,63,0,0
+1671875435799,60,DELETE ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-1,,true,,211,217,4,4,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/2,60,0,0
+1671875435800,61,PUT ACTIVITIES BY ID,200,OK,Fake Rest API Stress Test 1-4,text,true,,262,290,3,3,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/8,61,0,0
+1671875435844,64,DELETE ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-3,,true,,211,217,3,3,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/6,64,0,0
+1671875435845,67,GET ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,353,215,2,2,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/10,67,0,0
+1671875435862,62,DELETE ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-4,,true,,211,217,2,2,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/8,62,0,0
+1671875435912,64,POST ACTIVITIES,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,290,1,1,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities,64,0,0
+1671875435976,64,PUT ACTIVITIES BY ID,200,OK,Fake Rest API Stress Test 1-5,text,true,,262,292,1,1,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/10,64,0,0
+1671875436040,64,DELETE ACTIVITIES by ID,200,OK,Fake Rest API Stress Test 1-5,,true,,211,218,1,1,https://udacity3rdsontb4-AppService.azurewebsites.net/api/Activities/10,64,0,0
